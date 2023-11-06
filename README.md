@@ -1,4 +1,4 @@
-# demo-login-spring-boot
+# Demo Login Spring Boot
 
 # Read Me First
 The following was discovered as part of building this project:
