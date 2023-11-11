@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class AuthController {
 
-    @PostMapping(value = "login")
+    @PostMapping("/login")
     public String login(){
         return "Estas en el login endpoint";
     }
 
-    @PostMapping(value = "register")
+    @PostMapping("/register")
     public String register(){
         return "Estas en el register endpoint";
     }
