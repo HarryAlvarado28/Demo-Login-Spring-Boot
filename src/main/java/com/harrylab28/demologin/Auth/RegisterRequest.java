@@ -1,4 +1,4 @@
-package controller;
+package com.harrylab28.demologin.Auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,12 +7,12 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class RegisterRequest {
     String username;
     String password;
     String firstname;
     String lastname;
-    String country;
+    String country; 
 }

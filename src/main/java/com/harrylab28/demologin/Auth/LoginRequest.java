@@ -1,4 +1,4 @@
-package controller;
+package com.harrylab28.demologin.Auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class AuthResponse {
-    String token;
+public class LoginRequest {
+    String username;
+    String password; 
 }
